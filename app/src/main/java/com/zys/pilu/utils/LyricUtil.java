@@ -40,8 +40,8 @@ import java.util.regex.Pattern;
 public class LyricUtil {
     private final String TAG = "LyricUtil";
     private String filePath;
-    private String name;
     private String artist;
+    private String name;
     private List<String> lyricList = new ArrayList<String>();
     private List<Integer> timeList =  new ArrayList<Integer>();
     private DownloadTask myTask = new DownloadTask();
